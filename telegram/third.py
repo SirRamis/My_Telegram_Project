@@ -57,7 +57,7 @@ def bot_message(message):
             text = show(message)
             bot.send_message(message.chat.id, text)
         elif message.text == 'Информация':#Пеедаем картинку
-            bot.send_photo(message.chat.id, photo=photo_url, caption='ассаляму алейкум Мидхэт!как хэллэр?')
+            bot.send_photo(message.chat.id, photo=photo_url, caption='ассаляму алейкум !как хэллэр?')
 
 
 
